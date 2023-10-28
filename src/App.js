@@ -1,5 +1,10 @@
+import MagicButton from "./Components/MagicButton"
 function App() {
-  return <div>Magic Button Task</div>;
+  return (
+    <>
+      <MagicButton />
+    </>
+  );
 }
 
 export default App;
