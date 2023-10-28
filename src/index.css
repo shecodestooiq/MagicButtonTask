@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Container{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.Container button{
+  margin: 10px;
+  padding: 10px;
+}
+.btnTextSize{
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(240, 255, 250);
+  border: 1px solid #6bc2b2;
+}
+.btnTextSize:hover{
+  background-color: rgb(169, 218, 202);
+}
+.btnContainer{
+  background-color: rgb(240, 255, 250);
+  border: 1px solid #6bc2b2;
+  width: 98%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btnContainer button{
+  margin: 10px;
+  padding: 10px;
+  max-width: 200px;
+  border: 0;
+}
