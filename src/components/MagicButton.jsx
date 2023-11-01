@@ -8,6 +8,7 @@ function MagicButton({ children }) {
       style: {
         ...children.props.style,
         backgroundColor: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
+        color: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
         borderRadius: `${Math.floor(Math.random() * 50)}%`, 
       },
     });
